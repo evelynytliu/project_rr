@@ -543,22 +543,30 @@
         </div>
     </section>
 
-    <!-- 4. Ticket Design (Dedicated Section - NEW) -->
-    <section class="py-24 bg-white border-t border-gray-100">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex flex-col md:flex-row items-center justify-between mb-12 reveal-on-scroll">
+    <!-- 4. Ticket Design (Now 4th) -->
+    <section class="py-24 bg-white border-t border-gray-100 relative overflow-hidden">
+        <!-- Magazine Style Background Element -->
+        <div
+            class="absolute top-0 right-0 text-[12rem] md:text-[20rem] font-serif text-gray-500/5 leading-none -mr-10 -mt-20 select-none pointer-events-none">
+            04
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 relative">
+            <div class="flex flex-col md:flex-row items-center justify-between mb-20 reveal-on-scroll">
                 <div class="mb-8 md:mb-0 md:w-1/3">
-                    <span class="text-brand-orange font-bold tracking-widest text-sm uppercase mb-2 block">Ticket
+                    <span class="text-brand-orange font-bold tracking-[0.3em] text-sm uppercase mb-4 block">Ticket
                         Design</span>
-                    <h2 class="text-4xl font-bold serif text-gray-900 mb-4">遊戲區票券設計</h2>
-                    <p class="text-gray-600 leading-relaxed">
+                    <h2 class="text-5xl md:text-6xl font-bold serif text-gray-900 mb-6 leading-tight">遊戲區<br>票券設計</h2>
+                    <div class="w-12 h-1 bg-gray-200 mb-6"></div>
+                    <p class="text-gray-600 leading-loose text-lg font-light text-justify">
                         針對不同使用時段設計的入場票券，區分 1 小時與 2 小時方案。色彩系統與品牌主色調保持一致，讓票券本身也成為值得收藏的品牌觸點。
                     </p>
                 </div>
-                <div class="md:w-2/3 flex justify-center">
-                    <div class="bg-warm-gray p-8 rounded-2xl shadow-inner w-full flex justify-center items-center">
+                <div class="md:w-2/3 flex justify-center pl-0 md:pl-16">
+                    <div
+                        class="bg-warm-gray p-8 md:p-12 rounded-none shadow-[20px_20px_0px_rgba(0,0,0,0.05)] border border-gray-100 w-full flex justify-center items-center transform rotate-2 hover:rotate-0 transition-transform duration-500">
                         <img src="images/tickets-1hr-2hr.png"
-                            class="max-w-full h-auto drop-shadow-xl hover:scale-105 transition-transform duration-500"
+                            class="max-w-full h-auto drop-shadow-2xl hover:scale-105 transition-transform duration-500"
                             alt="Ticket System Design">
                     </div>
                 </div>
@@ -567,95 +575,106 @@
     </section>
 
     <!-- 5. Blackboard Art Gallery (Comprehensive) -->
-    <section class="py-24 bg-gray-900 text-gray-100">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex flex-col md:flex-row items-baseline justify-between mb-12 reveal-on-scroll">
-                <h2 class="text-4xl md:text-5xl font-bold serif text-white">手繪黑板畫廊</h2>
-                <p class="text-gray-400 mt-2">隨著季節更迭的店內風景</p>
+    <section class="py-24 bg-gray-900 text-gray-100 relative overflow-hidden">
+        <!-- Magazine Style Background Element -->
+        <div
+            class="absolute top-20 left-10 text-[12rem] md:text-[20rem] font-serif text-white/5 leading-none select-none pointer-events-none z-0">
+            05
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div
+                class="flex flex-col md:flex-row items-baseline justify-between mb-20 reveal-on-scroll border-b border-gray-700 pb-8">
+                <div>
+                    <span class="text-brand-blue font-bold tracking-[0.3em] text-sm uppercase mb-2 block">Art
+                        Gallery</span>
+                    <h2 class="text-5xl md:text-6xl font-bold serif text-white">手繪黑板畫廊</h2>
+                </div>
+                <p class="text-gray-400 mt-4 md:mt-0 font-serif italic text-xl">"The changing scenery of the shop with
+                    the seasons"</p>
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 auto-rows-auto grid-flow-dense">
                 <!-- 1. Giraffe (Tall Portrait) -->
-                <div class="art-frame reveal-on-scroll row-span-2">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard_giraffe.JPEG" class="w-full h-full object-cover"
-                            alt="Blackboard Giraffe">
+                <div class="art-frame reveal-on-scroll row-span-2 group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard_giraffe.JPEG"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Giraffe">
                     </div>
                 </div>
                 <!-- 2. Santa (Xmas) (Big Square) -->
-                <div class="art-frame reveal-on-scroll col-span-2 row-span-2 aspect-square">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard_xmas.JPEG" class="w-full h-full object-cover"
-                            alt="Blackboard Santa">
+                <div class="art-frame reveal-on-scroll col-span-2 row-span-2 aspect-square group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard_xmas.JPEG"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Santa">
                     </div>
                 </div>
                 <!-- 3. Whale (Wide Landscape) -->
-                <div class="art-frame reveal-on-scroll col-span-2">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard_whale.JPEG" class="w-full h-full object-cover"
-                            alt="Blackboard Whale">
+                <div class="art-frame reveal-on-scroll col-span-2 group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard_whale.JPEG"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Whale">
                     </div>
                 </div>
 
                 <!-- Other Named Updates -->
-                <div class="art-frame reveal-on-scroll aspect-square">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard_dinosaur.JPG" class="w-full h-full object-cover"
-                            alt="Blackboard Dinosaur">
+                <div class="art-frame reveal-on-scroll aspect-square group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard_dinosaur.JPG"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Dinosaur">
                     </div>
                 </div>
 
-                <div class="art-frame reveal-on-scroll aspect-square">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard_valentine.JPG" class="w-full h-full object-cover"
-                            alt="Blackboard Valentine">
+                <div class="art-frame reveal-on-scroll aspect-square group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard_valentine.JPG"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Valentine">
                     </div>
                 </div>
-                <div class="art-frame reveal-on-scroll aspect-square">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard_halloween.JPEG" class="w-full h-full object-cover"
-                            alt="Blackboard Halloween">
+                <div class="art-frame reveal-on-scroll aspect-square group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard_halloween.JPEG"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Halloween">
                     </div>
                 </div>
 
                 <!-- Existing Seasonal -->
-                <div class="art-frame reveal-on-scroll aspect-square">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard-lunaryear.jpg" class="w-full h-full object-cover"
-                            alt="Lunar Year">
+                <div class="art-frame reveal-on-scroll aspect-square group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard-lunaryear.jpg"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Lunar Year">
                     </div>
                 </div>
-                <div class="art-frame reveal-on-scroll aspect-square">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard-midautumn.jpg" class="w-full h-full object-cover"
-                            alt="Mid Autumn">
+                <div class="art-frame reveal-on-scroll aspect-square group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard-midautumn.jpg"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Mid Autumn">
                     </div>
                 </div>
-                <div class="art-frame reveal-on-scroll col-span-2 row-span-2 aspect-square">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard-tree.jpg" class="w-full h-full object-cover"
-                            alt="Blackboard Tree">
+                <div class="art-frame reveal-on-scroll col-span-2 row-span-2 aspect-square group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard-tree.jpg"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Tree">
                     </div>
                 </div>
 
                 <!-- Numbered/Others -->
-
-                <div class="art-frame reveal-on-scroll aspect-square hidden md:block mobile-hidden">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard_6269.JPG" class="w-full h-full object-cover"
-                            alt="Blackboard Art">
+                <div class="art-frame reveal-on-scroll aspect-square hidden md:block mobile-hidden group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard_6269.JPG"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Art">
                     </div>
                 </div>
-                <div class="art-frame reveal-on-scroll aspect-square hidden md:block mobile-hidden">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard_6970.JPEG" class="w-full h-full object-cover"
-                            alt="Blackboard Art">
+                <div class="art-frame reveal-on-scroll aspect-square hidden md:block mobile-hidden group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard_6970.JPEG"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Art">
                     </div>
                 </div>
-                <div class="art-frame reveal-on-scroll aspect-square hidden md:block mobile-hidden">
-                    <div class="w-full h-full overflow-hidden border border-gray-100">
-                        <img src="images/rr-blackboard_8240.JPG" class="w-full h-full object-cover"
-                            alt="Blackboard Art">
+                <div class="art-frame reveal-on-scroll aspect-square hidden md:block mobile-hidden group">
+                    <div class="w-full h-full overflow-hidden border border-gray-800 relative">
+                        <img src="images/rr-blackboard_8240.JPG"
+                            class="w-full h-full object-cover transition-all duration-700" alt="Blackboard Art">
                     </div>
                 </div>
             </div>
@@ -672,6 +691,12 @@
 
     <!-- 6. Marketing, Assets & Social Media -->
     <section class="py-24 bg-warm-gray relative overflow-hidden">
+        <!-- Magazine Style Background Element -->
+        <div
+            class="absolute top-0 right-0 text-[12rem] md:text-[20rem] font-serif text-gray-500/5 leading-none -mr-10 -mt-20 select-none pointer-events-none">
+            06
+        </div>
+
         <!-- Background Pattern -->
         <div
             class="absolute top-10 right-10 w-96 h-96 opacity-10 pointer-events-none animate-float rounded-full overflow-hidden">
@@ -679,7 +704,7 @@
         </div>
 
         <div class="max-w-6xl mx-auto px-6 relative z-10">
-            <div class="text-center mb-16 reveal-on-scroll relative">
+            <div class="text-center mb-24 reveal-on-scroll relative">
                 <!-- Floating Fried Platter (Moved Here) -->
                 <div class="absolute -left-10 md:-left-32 top-0 md:-top-10 w-32 md:w-64 animate-float pointer-events-none z-20 opacity-80"
                     style="animation-delay: 2s;">
@@ -692,10 +717,12 @@
                 </div>
 
                 <div class="relative z-30">
-                    <h2 class="text-3xl md:text-5xl font-bold mb-4 serif text-gray-800">行銷與社群互動</h2>
+                    <span
+                        class="text-brand-orange font-bold tracking-[0.3em] text-sm uppercase mb-4 block">Marketing</span>
+                    <h2 class="text-5xl md:text-6xl font-bold mb-6 serif text-gray-900">行銷與社群互動</h2>
                     <div class="w-16 h-1 bg-brand-blue mx-auto mb-8"></div>
-                    <p class="text-gray-600 max-w-2xl mx-auto">
-                        透過社群媒體與實體宣傳物，我們將品牌的溫度延伸到線上與社區的每一個角落。色彩鮮明的設計語彙，確保品牌識別度的一致性。
+                    <p class="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed font-light">
+                        透過社群媒體與實體宣傳物，將品牌的溫度延伸到線上與社區的每一個角落。色彩鮮明的設計語彙，確保品牌識別度的一致性。
                     </p>
                 </div>
             </div>
@@ -746,15 +773,21 @@
     </section>
 
     <!-- 7. Merchandise & Peripherals -->
-    <section class="py-24 bg-white relative">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="text-center mb-16 reveal-on-scroll">
-                <span class="text-brand-orange font-bold tracking-widest text-sm uppercase mb-2 block">Merch &
+    <section class="py-24 bg-white relative overflow-hidden">
+        <!-- Magazine Style Background Element -->
+        <div
+            class="absolute top-20 left-10 text-[12rem] md:text-[20rem] font-serif text-gray-500/5 leading-none select-none pointer-events-none z-0">
+            07
+        </div>
+
+        <div class="max-w-6xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-24 reveal-on-scroll">
+                <span class="text-brand-orange font-bold tracking-[0.3em] text-sm uppercase mb-4 block">Merch &
                     Goods</span>
-                <h2 class="text-4xl font-bold mb-4 serif text-gray-800">品牌週邊應用</h2>
+                <h2 class="text-5xl md:text-6xl font-bold mb-6 serif text-gray-900">品牌週邊應用</h2>
                 <div class="w-16 h-1 bg-brand-orange mx-auto mb-8"></div>
-                <p class="text-gray-600 max-w-2xl mx-auto">
-                    從實用的毛巾到充滿節慶感的紅包袋，每一件小物都承載著我們對細節的堅持。
+                <p class="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed font-light">
+                    從實用的毛巾到充滿節慶感的紅包袋，每一件小物都承載著對細節的堅持。
                 </p>
             </div>
 
@@ -900,36 +933,36 @@
                 class="fill-gray-100"></path>
         </svg>
     </div>
-    <footer class="bg-gray-100 text-gray-800 py-20 text-center border-t border-gray-200">
+    <footer class="bg-white text-gray-800 py-24 text-center border-t border-gray-100">
         <div class="max-w-2xl mx-auto px-6">
             <div
-                class="w-16 h-16 bg-brand-orange rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl font-bold">
+                class="w-20 h-20 bg-brand-orange rounded-full mx-auto mb-8 flex items-center justify-center text-white text-3xl font-bold font-serif shadow-lg">
                 R</div>
 
-            <h2 class="text-3xl font-bold mb-6 serif">Round & Round</h2>
-            <p class="text-gray-500 mb-8 leading-relaxed">
+            <h2 class="text-4xl font-bold mb-6 serif">Round & Round</h2>
+            <p class="text-gray-500 mb-12 leading-relaxed font-light tracking-wide text-lg">
                 感謝您閱讀本專案展示。<br>
                 This project represents a complete brand identity system, from logo design to spatial application.
             </p>
 
             <a href="https://evelynytliu.github.io/"
-                class="inline-block px-10 py-4 bg-gray-900 text-white rounded-full hover:bg-brand-orange hover:text-white transition-all duration-300 shadow-lg font-medium tracking-wide">
-                返回作品集首頁 | Back to Portfolio
+                class="inline-block px-12 py-4 bg-gray-900 text-white rounded-none border hover:bg-white hover:text-gray-900 hover:border-gray-900 transition-all duration-300 shadow-xl font-medium tracking-[0.2em] uppercase">
+                Back to Portfolio
             </a>
 
             <!-- Contact Links -->
-            <div class="flex justify-center gap-8 mt-10 flex-wrap text-sm tracking-widest uppercase">
-                <a href="mailto:evelyn.evagor@gmail.com"
-                    class="text-gray-400 hover:text-brand-orange transition-colors">Email</a>
+            <div
+                class="flex justify-center gap-10 mt-16 flex-wrap text-xs tracking-[0.2em] uppercase font-bold text-gray-400">
+                <a href="mailto:evelyn.evagor@gmail.com" class="hover:text-brand-orange transition-colors">Email</a>
                 <a href="https://www.instagram.com/eviesmuffy/" target="_blank"
-                    class="text-gray-400 hover:text-brand-orange transition-colors">Instagram</a>
+                    class="hover:text-brand-orange transition-colors">Instagram</a>
                 <a href="https://github.com/evelynytliu/evelynytliu.github.io" target="_blank"
-                    class="text-gray-400 hover:text-brand-orange transition-colors">GitHub</a>
+                    class="hover:text-brand-orange transition-colors">GitHub</a>
                 <a href="https://www.linkedin.com/in/evelyn-liu-98871711/" target="_blank"
-                    class="text-gray-400 hover:text-brand-orange transition-colors">LinkedIn</a>
+                    class="hover:text-brand-orange transition-colors">LinkedIn</a>
             </div>
 
-            <p class="mt-12 text-xs text-gray-400">© 2025 Evelyn YT Liu. All rights reserved.
+            <p class="mt-16 text-[10px] text-gray-300 tracking-widest">© 2025 Evelyn YT Liu. All rights reserved.
         </div>
     </footer>
 
@@ -1240,6 +1273,29 @@
                 if (e.key === 'ArrowRight') showNext();
                 if (e.key === 'ArrowLeft') showPrev();
             });
+
+            // --- Touch Swipe Support for Mobile ---
+            let touchStartX = 0;
+            let touchEndX = 0;
+
+            lightbox.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            lightbox.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            }, { passive: true });
+
+            function handleSwipe() {
+                const swipeThreshold = 50; // Minimum distance for swipe
+                if (touchEndX < touchStartX - swipeThreshold) {
+                    showNext(); // Swipe Left -> Next
+                }
+                if (touchEndX > touchStartX + swipeThreshold) {
+                    showPrev(); // Swipe Right -> Prev
+                }
+            }
 
             // --- Load More Feature (Blackboard Gallery) ---
             const loadMoreBtn = document.getElementById('load-more-btn');
